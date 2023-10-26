@@ -2,3 +2,24 @@ body {
     background-color: #ddd;
 }
 
+
+#board {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#player {
+    background-color: limegreen;
+    position: absolute;
+}
+
+.obstacle {
+    background-color: purple;
+    position: absolute;
+}
+
+#page-gameover {
+    text-align: center;
+    background-color: rgb(166, 161, 171);
+}
